@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">New</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_about_screen">AboutScreen</string>
+    <string name="title_activity_article_detail_screen">ArticleDetailScreen</string>
+    <string name="title_activity_article_screen">ArticleScreen</string>
+    <string name="title_activity_ge_yan">GeYan</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_init_info">InitInfo</string>
+    <string name="title_activity_main_frame">MainFrame</string>
+    <string name="title_activity_mine_screen">MineScreen</string>
+    <string name="title_activity_person_info">PersonInfo</string>
+    <string name="title_activity_pictures">Pictures</string>
+</resources>

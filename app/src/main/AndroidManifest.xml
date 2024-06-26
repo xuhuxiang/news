@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".ui.MainApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.New"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.Screens.Pictures"
+            android:exported="false"
+            android:label="@string/title_activity_pictures"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.PersonInfo"
+            android:exported="false"
+            android:label="@string/title_activity_person_info"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.MineScreen"
+            android:exported="false"
+            android:label="@string/title_activity_mine_screen"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.MainFrame"
+            android:exported="false"
+            android:label="@string/title_activity_main_frame"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.InitInfo"
+            android:exported="false"
+            android:label="@string/title_activity_init_info"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.Info"
+            android:exported="false"
+            android:label="@string/title_activity_info"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.GeYan"
+            android:exported="false"
+            android:label="@string/title_activity_ge_yan"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.ArticleScreen"
+            android:exported="false"
+            android:label="@string/title_activity_article_screen"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.ArticleDetailScreen"
+            android:exported="false"
+            android:label="@string/title_activity_article_detail_screen"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.AboutScreen"
+            android:exported="false"
+            android:label="@string/title_activity_about_screen"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ui.Screens.LoginScreen"
+            android:exported="false"
+            android:label="@string/title_activity_login_screen"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.New">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
